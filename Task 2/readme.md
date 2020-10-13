@@ -4,7 +4,7 @@
 
 Начальный экран программы выглядит следующим образом:
 
-![2](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\2.PNG)
+![2](..\md_src\2.PNG)
 
 Главный экран представляет из себя окно, содержащее:
 
@@ -28,19 +28,19 @@
 
 Активируем режим 1.
 
-![21](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\21.PNG)
+![21](..\md_src\21.PNG)
 
 Если кликнуть по примерно такой области около деления, 
 
-![22](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\22.PNG)
+![22](..\md_src\22.PNG)
 
 то нарисуется стрелка.
 
 
 
-![23](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\23.PNG)
+![23](..\md_src\23.PNG)
 
-![24](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\24.PNG)
+![24](..\md_src\24.PNG)
 
  
 
@@ -48,31 +48,37 @@
 
 ### 
 
- ![25](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\25.PNG)
+ ![25](..\md_src\25.PNG)
+
+
 
 Кликая вдоль границы окружности мы можем построить стрелку в любом месте.
 
- ![26](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\26.PNG)![27](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\27.PNG)
+ ![26](..\md_src\26.PNG)
+
+![27](..\md_src\27.PNG)
+
+
 
 Программа гибкая, то есть при изменении масштаба программа не ломается и выглядит нормально.
 
-![28](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\28.PNG)
+![28](..\md_src\28.PNG)
 
 Также можно поменять значения на спидометре, изменив переменную speed.
 
 Например, установим размеры (800,1100) и (900,1160).
 
-![29](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\29.PNG)
+![29](..\md_src\29.PNG)
 
-![221](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\221.PNG)
+![221](..\md_src\221.PNG)
 
 Теперь поменяем speed на 700.
 
-![222](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\222.PNG)
+![222](..\md_src\222.PNG)
 
 ### Приложение
 
 Схема файла OganyanTask2
 
-![223](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\223.PNG)
+![223](..\md_src\223.PNG)
 

@@ -10,7 +10,7 @@
 
 Сам Form.cs и написанный мною класс Rectangles с тремя полями: координата, размер, цвет.
 
-![3](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\3.PNG)
+![3](..\md_src\3.PNG)
 
 В классе есть 3 метода: 
 
@@ -20,7 +20,7 @@
 
 ·    Void DrawRec - исходя из полей класса рисует прямоугольник
 
-![31](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\31.PNG)
+![31](..\md_src\31.PNG)
 
   
 
@@ -28,37 +28,37 @@
 
 Часть блока, рандомно генерирующего объект Rectangles выглядит так:
 
-![32](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\32.PNG)
+![32](..\md_src\32.PNG)
 
 Для сравнения, в WPF это делается иначе. Например, координата задается отступом от всех рамок, а в самом WPF существует свой класс Rectangle, у которого и так есть методы, задающие размер (Height, Width), цвет(Fill), обводку(Stroke). 
 
-![33](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\33.PNG)
+![33](..\md_src\33.PNG)
 
 Таймер задается тоже по-разному:
 
 Windows Form:
 
-![34](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\34.PNG)
+![34](..\md_src\34.PNG)
 
 WPF :
 
-![35](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\35.PNG)
+![35](..\md_src\35.PNG)
 
 Также WPF сам определяет объект Rectangle,  так что мы просто используем метод IntersectWith, в отличии от Windows Form, где нужно вручную (написанным нами методом) сравнивать элементы массива Reclist по координатам: 
 
 WPF:
 
-![36](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\36.PNG)
+![36](..\md_src\36.PNG)
 
 Windows form: 
 
-![37](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\37.PNG)
+![37](..\md_src\37.PNG)
 
  
 
 В дополнение скажу, что пользователь может регулировать сложность:
 
-![38](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\38.PNG)
+![38](..\md_src\38.PNG)
 
 Чем меньше timedifficult, тем меньше задержка, т.е сложнее.
 
@@ -66,13 +66,13 @@ Windows form:
 
 P.s: Задержка 1000 - легко. 500 - нужно попотеть. Если вы выигрываете на <400, то вы сверхчеловек. 
 
-![39](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\39.PNG)
+![39](..\md_src\39.PNG)
 
 Проигрыш и выигрыш соответственно:
 
 
 
-![311](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\311.PNG)
+![311](..\md_src\311.PNG)
 
  
 
@@ -80,4 +80,4 @@ P.s: Задержка 1000 - легко. 500 - нужно попотеть. Ес
 
 **Windows Forms:**
 
-![312](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\312.PNG)
+![312](..\md_src\312.PNG)

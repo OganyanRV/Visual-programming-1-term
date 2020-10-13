@@ -2,7 +2,7 @@
 
 Программа выполнена в среде разработки microsoft visual studio 2017 с помощью Windows Form. Приложение написано для операционной системы Windows. 
 
-Начальный экран программы выглядит следующим образом: ![1](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\1.PNG)
+Начальный экран программы выглядит следующим образом: ![1](..\md_src\1.PNG)
 
 Главный экран представляет из себя окно, содержащее:
 
@@ -25,7 +25,7 @@
 
 Переход с английского на русский:
 
-![11](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\11.PNG)
+![11](..\md_src\11.PNG)
 
  
 
@@ -33,7 +33,7 @@
 
  
 
-![12](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\12.PNG)
+![12](..\md_src\12.PNG)
 
 
 
@@ -41,15 +41,15 @@
 
 Кнопка «Выйти из программы». 
 
-![image-20201013193735518](C:\Users\OgRob\AppData\Roaming\Typora\typora-user-images\image-20201013193735518.png)
+![image-20201013193735518](..\md_src\13.png)
 
 Кстати, в программе также есть tooltips (всплывающие подсказки). При наведении на какой-либо элемент в окне всплывает следующее: 
 
- ![14](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\14.PNG)
+ ![14](..\md_src\14.PNG)
 
 ![15](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\15.PNG)
 
-![16](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\16.PNG)
+![16](..\md_src\16.PNG)
 
  
 
@@ -69,20 +69,20 @@
 
 Теперь введем какое-нибудь слово на русском из базы словаря
 
-![17](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\17.PNG)
+![17](..\md_src\17.PNG)
 
 Аналогично для английского:
 
-![18](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\18.PNG)
+![18](..\md_src\18.PNG)
 
  
 
 Если введенного слова нет в словаре, то программа выдаст:
 
-![19](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\19.PNG)
+![19](..\md_src\19.PNG)
 
 ### Приложение
 
 Схема файла OganyanVar2Slovarik
 
-![20](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\20.PNG)
+![20](..\md_src\20.PNG)
