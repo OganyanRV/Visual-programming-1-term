@@ -8,9 +8,9 @@
 
 **Реализация:**
 
-Сам Form.cs и написанный мною класс Rectangles с тремя полями: координата, размер, цвет.![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg)
+Сам Form.cs и написанный мною класс Rectangles с тремя полями: координата, размер, цвет.
 
- 
+![3](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\3.PNG)
 
 В классе есть 3 метода: 
 
@@ -20,49 +20,45 @@
 
 ·    Void DrawRec - исходя из полей класса рисует прямоугольник
 
+![31](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\31.PNG)
 
-
- 
-
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg)
-
- 
+  
 
 Теперь рассмотрим Form.cs:
 
 Часть блока, рандомно генерирующего объект Rectangles выглядит так:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg)
+![32](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\32.PNG)
 
 Для сравнения, в WPF это делается иначе. Например, координата задается отступом от всех рамок, а в самом WPF существует свой класс Rectangle, у которого и так есть методы, задающие размер (Height, Width), цвет(Fill), обводку(Stroke). 
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg)
+![33](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\33.PNG)
 
 Таймер задается тоже по-разному:
 
 Windows Form:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg)
+![34](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\34.PNG)
 
-WPF :![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg)
+WPF :
+
+![35](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\35.PNG)
 
 Также WPF сам определяет объект Rectangle,  так что мы просто используем метод IntersectWith, в отличии от Windows Form, где нужно вручную (написанным нами методом) сравнивать элементы массива Reclist по координатам: 
 
 WPF:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg)
+![36](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\36.PNG)
 
 Windows form: 
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg)
-
-
+![37](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\37.PNG)
 
  
 
 В дополнение скажу, что пользователь может регулировать сложность:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)
+![38](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\38.PNG)
 
 Чем меньше timedifficult, тем меньше задержка, т.е сложнее.
 
@@ -70,13 +66,13 @@ Windows form:
 
 P.s: Задержка 1000 - легко. 500 - нужно попотеть. Если вы выигрываете на <400, то вы сверхчеловек. 
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)
+![39](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\39.PNG)
 
 Проигрыш и выигрыш соответственно:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)
 
 
+![311](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\311.PNG)
 
  
 
@@ -84,4 +80,4 @@ P.s: Задержка 1000 - легко. 500 - нужно попотеть. Ес
 
 **Windows Forms:**
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg)
+![312](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\312.PNG)

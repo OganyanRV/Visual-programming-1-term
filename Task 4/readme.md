@@ -18,31 +18,34 @@
 
 Программа реализована с помощью 4-ех массивов (List):
 
-·   Эллипсы
-
-·   Координаты эллипсов
-
-·   Массив флагов, показывающий есть ли у эллипса данного индекса подведенная к нему линия
-
-·   Массив линий между точками
+* Эллипсы
+* Координаты эллипсов
+* Массив флагов, показывающий есть ли у эллипса данного индекса подведенная к нему линия
+* Массив линий между точками
 
 Таким образом, при загрузке программа рандомно генерировала 16 эллипсов и заполняла 1-2 массив, а третий массив, отвечающий за использование/неиспользование точек первоначально был равен 0. 
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![4](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\4.PNG)
 
 Начинается игра: при попадании нажатия мышки на эллипс вызывается функция Game, которая, если у этой точки нет смежных отрезков, запоминает ее индекс в массиве. 
 
-Когда мы выбираем вторую такую точку, то сначала рисуется линия и кидается в массив линий. ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+Когда мы выбираем вторую такую точку, то сначала рисуется линия и кидается в массив линий.
 
- А затем с помощью геометрии ( функции areCrossing и вспомогательная vector_mult) считаем, пересекаются ли отрезки. Если нет, то игра продолжается до тех пор, пока не закончатся точки (ничья). Если да - вы проиграли. ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![41](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\41.PNG)
+
+ А затем с помощью геометрии ( функции areCrossing и вспомогательная vector_mult) считаем, пересекаются ли отрезки. Если нет, то игра продолжается до тех пор, пока не закончатся точки (ничья). Если да - вы проиграли.
+
+![42](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\42.PNG)
+
+![43](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\43.PNG)
 
  
 
 Реализация методов проверки отрезков на пересечение:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
 
 
+![44](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\44.PNG)
 
  
 
@@ -50,4 +53,4 @@
 
 Схема файла OganyanTask4
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+![45](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\45.PNG)

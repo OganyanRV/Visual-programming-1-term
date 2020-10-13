@@ -4,7 +4,7 @@
 
  
 
-**Суть игры «****Ловилка»**
+**Суть игры «Ловилка»**
 
  
 
@@ -16,7 +16,7 @@
 
 Так выглядит рабочая среда программы.
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![img](../md_src/clip_image002.jpg)
 
 
 
@@ -24,7 +24,7 @@
 
 Объекты в данной программе:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg)
+![img](../md_src/clip_image003.jpg)
 
 Score - текст, показывающий ваш счет
 
@@ -50,33 +50,35 @@ LeftWall и RightWall - левая и правая границы, за кото
 
 Начало игры:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg)
+![img](../md_src/clip_image005.jpg)
 
 Ловим шар и получаем +10 ( теперь у нас станет 40).
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg)
+![img](../md_src/clip_image007.jpg)
 
 Ловим бомбу и получаем -10 ( станет 60)
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg)
+![img](../md_src/clip_image009.jpg)
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg)
+![img](../md_src/clip_image011.jpg)
 
  
 
 Игра не очень замысловатая. В моей модификации объекты падают быстро, но цилиндр двигается тоже быстро. Набил 350 очков и вспомнил, что пора делать Task6.
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg)
+![img](../md_src/clip_image013.jpg)
 
 ### Приложение
 
 Спрайты:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg)
+![img](../md_src/clip_image015.jpg)
 
  
 
-Скрипты: 
+Скрипты:
+
+ ![5](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\5.PNG)
 
 **itemChecker****:** скрипт проверяет, поймали ли мы шар/бомбу.  Отвечает за ваш счет и за звук.
 

@@ -4,15 +4,13 @@
 
 Начальный экран программы выглядит следующим образом:
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg)
+![2](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\2.PNG)
 
 Главный экран представляет из себя окно, содержащее:
 
-·    Шкалу спидометра
-
-·    Синяя кнопка для включения режима 1
-
-·    Голубая кнопка для включения режима 2
+* Шкалу спидометра
+* Синяя кнопка для включения режима 1
+* Голубая кнопка для включения режима 2
 
 
 
@@ -30,52 +28,51 @@
 
 Активируем режим 1.
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg)
+![21](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\21.PNG)
 
-Если кликнуть по примерно такой области около деления, ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg)
+Если кликнуть по примерно такой области около деления, 
+
+![22](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\22.PNG)
 
 то нарисуется стрелка.
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg)
 
 
+![23](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\23.PNG)
+
+![24](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\24.PNG)
 
  
 
 Теперь включим второй режим.
 
-### ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg)
+### 
 
- 
+ ![25](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\25.PNG)
 
 Кликая вдоль границы окружности мы можем построить стрелку в любом месте.
 
- ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)
+ ![26](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\26.PNG)![27](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\27.PNG)
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg) 
+Программа гибкая, то есть при изменении масштаба программа не ломается и выглядит нормально.
 
-Программа гибкая, то есть при изменении масшатаба программа не ломается и выглядит нормально.
-
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg)
+![28](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\28.PNG)
 
 Также можно поменять значения на спидометре, изменив переменную speed.
 
 Например, установим размеры (800,1100) и (900,1160).
 
- 
+![29](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\29.PNG)
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image025.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image027.jpg)
-
-
-
- 
+![221](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\221.PNG)
 
 Теперь поменяем speed на 700.
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image028.jpg)
+![222](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\222.PNG)
 
 ### Приложение
 
 Схема файла OganyanTask2
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image029.jpg)
+![223](C:\Users\OgRob\Desktop\C#\C_sharp_1st_term\md_src\223.PNG)
+
