@@ -1,11 +1,6 @@
 # Prerequisites
 *.d
 
-# Src for markdown
-"md_src/"
-md_src/
-
-
 # Compiled Object files
 *.slo
 *.lo
